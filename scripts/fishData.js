@@ -46,7 +46,7 @@ const fishCollection = [
         name: "Shirley",
         species: "Goldfish",
         inches: 3,
-        image: "goldfish.jpg"
+        image: "goldfish.jpeg"
     },
 
     {
@@ -56,7 +56,7 @@ const fishCollection = [
         name: "Leonardo",
         species: "Siamese",
         inches: 785,
-        image: "siamese.jpeg"
+        image: "siamese.jpg"
     }
 ];
 
