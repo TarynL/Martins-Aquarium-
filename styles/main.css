@@ -28,6 +28,7 @@ main {
 .tank {
 	margin: 1em 0;
 	display: flex;
+    justify-content: left;
     
 }
 
@@ -66,7 +67,25 @@ main {
     
 }
 
-footer {
-	background-color: #6295C8 ;
-	text-align: end;
+
+aside{
+    background-color:#D3D3D3 ;
+    width: 20%;
+    padding-left: .5rem;
+    margin-left: .5rem;
+    float: right;
+
 }
+
+h2 {
+    text-align: center;
+}
+
+.quotes {
+    background-color: #6295C8;
+    text-align: center;
+    margin: 5px;
+    padding:10px;
+
+}
+
