@@ -1,5 +1,5 @@
 
-import { fish } from "./fish.js";
+import { fish } from "./fish.js"
 
 import { getFish } from "./fishData.js";
 
