@@ -57,16 +57,20 @@ const fishCollection = [
         species: "Siamese",
         inches: 785,
         image: "siamese.jpeg"
-    },
+    }
 ];
 
 
 
 
+
+
+
 export const getFish = () => {
-	return fishCollection;
+    return fishCollection;
 }
 
+                    
 
 
 

@@ -1,0 +1,71 @@
+body {
+	background-color: #014588;
+	font-family: 'Playfair Display', serif;
+	margin: 0;
+}
+
+header {
+	display: flex;
+	flex-wrap: nowrap;
+	align-items: center;
+	background-color: #6295C8 ;
+    
+
+}
+
+header h1 {
+	text-align: center;
+	padding: 10px;
+	font-size: 50px;
+    width: 100%;
+}
+
+main {
+    background-color: #014588;
+}
+
+
+.tank {
+	margin: 1em 0;
+	display: flex;
+    
+}
+
+#list {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;	
+}
+
+.fish-card {
+	background-color: #D3D3D3;
+	margin: 10px;
+	max-width: 200px;
+}
+
+.fish-card ul {
+	list-style-type:none;
+	padding: 5px;
+	margin: 2px;
+	
+}
+
+
+.fish-image {
+	width: 100%;
+	height: auto;
+}
+
+.fish-name{
+    margin-left: 10px;
+}
+
+.details{
+    margin-left: 5px;
+    
+}
+
+footer {
+	background-color: #6295C8 ;
+	text-align: end;
+}
