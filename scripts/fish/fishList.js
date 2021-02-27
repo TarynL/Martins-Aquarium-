@@ -1,10 +1,16 @@
 
 import { fish } from "./fish.js"
 
-import { getFish } from "./fishData.js";
+import { getFish, getMostHolyFish, getSoldierFish, getUnworthy } from "./fishData.js";
 
 export const fishList = () => {
-	const allFish = getFish();
+	const holyFish = getMostHolyFish();
+	const soldierFish = getSoldierFish();
+	const unWorthyFish = getUnworthy();
+
+	const allFish = holyFish.concat(soldierFish, unWorthyFish);
+
+
 	const DOMLocation = document.querySelector("#list");
 	let fishRep = "";
 
